@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Jobs;
+namespace Poketracker\Jobs;
 
 use Illuminate\Bus\Queueable;
 

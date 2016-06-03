@@ -151,10 +151,15 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        Poketracker\Providers\AppServiceProvider::class,
+        Poketracker\Providers\AuthServiceProvider::class,
+        Poketracker\Providers\EventServiceProvider::class,
+        Poketracker\Providers\RouteServiceProvider::class,
+
+        /*
+         * Even More Service Providers...
+         */
+        Ixudra\Curl\CurlServiceProvider::class,
 
     ],
 
@@ -201,6 +206,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+        'Curl' => Ixudra\Curl\Facades\Curl::class,
 
     ],
 

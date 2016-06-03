@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace Poketracker\Http\Controllers\Auth;
 
-use App\User;
+use Poketracker\User;
 use Validator;
-use App\Http\Controllers\Controller;
+use Poketracker\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 

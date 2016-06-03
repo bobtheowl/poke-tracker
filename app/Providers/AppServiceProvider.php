@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace Poketracker\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

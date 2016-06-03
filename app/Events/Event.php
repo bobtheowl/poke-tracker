@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Events;
+namespace Poketracker\Events;
 
 abstract class Event
 {

@@ -1,12 +1,14 @@
 <?php
 namespace Poketracker\Model;
 
+use Illuminate\Database\Eloquent\Model;
+
 /**
  * @class
  * @summary
  * @author Jacob Stair
  */
-class Pokemon extends Eloquent
+class Pokemon extends Model
 {
     /**
      * The database table used by the model.
